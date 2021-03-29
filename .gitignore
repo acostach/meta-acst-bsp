@@ -1,0 +1,14 @@
+*.swp
+
+# dynamically created by the build script
+conf-notes.txt
+
+# Log files
+*.log
+
+*.jwt
+
+# These files may be produced by balenaCI. Since this is not a node project we can
+# simply ignore both
+package-lock.json
+node_modules
